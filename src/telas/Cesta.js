@@ -5,6 +5,8 @@ import logo from '../../assets/logo.png'; // importação da logo;
 import Texto from '../componentes/Texto'; // importação do componente Texto;
 import Footer from "./Cesta/componentes/Footer";
 import Button from "./Cesta/componentes/Button";
+import Lista from "./Cesta/componentes/Lista";
+import cesta from "../mocks/cesta";
 
 // constante que vai pegar o tamanho da tela;
 const width = Dimensions.get('screen').width;
@@ -25,12 +27,13 @@ export default function Cesta() {
 
                 <View style={estilos.fazenda}>
                     <Image source={logo} style={estilos.imagemFazenda}/>
-                    <Text style={estilos.nomeFazenda}> Fazendo do Alemão </Text>
+                    <Text style={estilos.nomeFazenda}> {cesta.detalhes.nomeFazenda} </Text>
 
                 </View>
 
-                <Text style={estilos.descricao}> Uma cesta de produtos cuidadosamente selecionados;</Text>
-                <Text style={estilos.preco}> R$40,00</Text>
+                <Text style={estilos.descricao}> {cesta.detalhes.descricao} </Text>
+                <Lista />
+                <Text style={estilos.preco}> {cesta.detalhes.preco} </Text>
                 
 
             </View>
