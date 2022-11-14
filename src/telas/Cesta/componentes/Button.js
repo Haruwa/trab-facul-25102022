@@ -6,9 +6,9 @@ import {
     View
   } from 'react-native'
 
-  export default function (){
+  export default function BtnComprar(){
     return(
-    <View style={estilos.ctnComprar}>
+    <View style={estilos.btnComprar}>
         <TouchableOpacity style={estilos.btnComprar}>
             <Text>Comprar</Text>
         </TouchableOpacity>

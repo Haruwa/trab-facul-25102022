@@ -7,6 +7,8 @@ import Cesta from './src/telas/Cesta';
 
 {/* Importa o mock*/}
 import mock from './src/mocks/cesta';
+import BtnComprar from './src/telas/Cesta/componentes/Button';
+import FtrCesta from './src/telas/Cesta/componentes/Footer';
 
 export default function App() {
   const [fonteCarregada] = useFonts({
@@ -24,6 +26,8 @@ export default function App() {
         {/* Passa o mock para o componente ...-> server para descontruir o objeto*/}
         {/* igual a dizer -> topo ={mock.topo}, detalhes = {mock.detalhes}*/}
         <Cesta {...mock} />
+        <BtnComprar />
+        <FtrCesta />
       </SafeAreaView>
   );
 }

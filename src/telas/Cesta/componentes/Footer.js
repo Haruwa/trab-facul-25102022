@@ -1,16 +1,16 @@
 import react from 'react';
 import {Text, View, StyleSheet} from 'react-native';
 
-export default function Footer() {
+export default function FtrCesta() {
     return <>
-    <View style={estilos.ctnFooter}>
+    <View style={estilos.ftrCesta}>
     <Text>Fazenda Terra Verde@ - Desenvolvido por Haruwa Solutions - Desenvolvedor: Jaime Garonce Meireles</Text>
     </View>
     </>
 }
 
 const estilos = StyleSheet.create({
-    ctnFooter:{
+    ftrCesta:{
         padding: 1
     }
 })
