@@ -8,7 +8,7 @@ import {
 
   export default function BtnComprar(){
     return(
-    <View style={estilos.btnComprar}>
+    <View style={estilos.viwComprar}>
         <TouchableOpacity style={estilos.btnComprar}>
             <Text>Comprar</Text>
         </TouchableOpacity>
@@ -19,11 +19,11 @@ import {
 const estilos = StyleSheet.create({
     btnComprar:{
         alignItems: "center",
-        backgroundColor: "#DDDDDD",
+        backgroundColor: "#ABDDAB",
         padding: 10,
         width: "50%"
     },
-    ctnComprar:{
+    viwComprar:{
         alignItems: "center",
         padding: 8
     }

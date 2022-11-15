@@ -4,6 +4,8 @@ import Texto from '../../componentes/Texto';
 import Topo from './componentes/Topo';
 import Detalhes from './componentes/Detalhes';
 import Item from './componentes/Item';
+import BtnComprar from './componentes/BtnComprar';
+import FtrCesta from './componentes/FtrCesta';
 
 {/* como objeto foi descontruido, agente pode pegar ele diretamente como se fossem props*/}
 export default function Cesta({ topo, detalhes, itens }) {

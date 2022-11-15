@@ -11,6 +11,7 @@ export default function FtrCesta() {
 
 const estilos = StyleSheet.create({
     ftrCesta:{
-        padding: 1
+        padding: 1,
+        alignItems: 'center',
     }
 })

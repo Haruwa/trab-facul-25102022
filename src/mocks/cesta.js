@@ -5,7 +5,7 @@ import batata from '../../assets/frutas/Batata.png';
 import pepino from '../../assets/frutas/Pepino.png';
 import abobora from '../../assets/frutas/Abobora.png';
 
-const cesta = {
+const legumes = {
     topo: {
         titulo: "Detalhe da cesta",
     },
