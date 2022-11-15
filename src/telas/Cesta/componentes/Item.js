@@ -1,12 +1,12 @@
 import React from 'react';
-import { View, Image, StyleSheet } from 'react-native';
+import { View, Image, StyleSheet, Linking, Text } from 'react-native';
 
 import Texto from '../../../componentes/Texto';
 
-export default function Item({ item: { nome, imagem } }) {
+export default function Item({ item: { nome, imagem, link } }) {
   return <View style={estilos.item}>
     <Image source={imagem} style={estilos.imagem}/>
-    <Texto style={estilos.nome}>{ nome }</Texto>
+    <Texto style={estilos.nome}><Text onPress={() => {Linking.openURL(link);}}>{ nome }</Text></Texto>
   </View>
 }
 

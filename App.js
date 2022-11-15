@@ -7,8 +7,8 @@ import Cesta from './src/telas/Cesta';
 
 {/* Importa o mock*/}
 import mock from './src/mocks/cesta';
-import BtnComprar from './src/telas/Cesta/componentes/Button';
-import FtrCesta from './src/telas/Cesta/componentes/Footer';
+import BtnComprar from './src/telas/Cesta/componentes/BtnComprar';
+import FtrCesta from './src/telas/Cesta/componentes/FtrCesta';
 
 export default function App() {
   const [fonteCarregada] = useFonts({

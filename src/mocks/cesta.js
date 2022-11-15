@@ -10,7 +10,7 @@ const cesta = {
         titulo: "Detalhe da cesta",
     },
     detalhes: {
-        nome: "Cesta Frutas - pelo menos devia ser",
+        nome: "Cesta de Frutas que, em tese, não são frutas",
         logoFazenda: logo,
         nomeFazenda: "Jenny Jack Farm",
         descricao: "Uma cesta com produtos selecionados cuidadosamente da fazenda direto para sua cozinha",
@@ -22,22 +22,27 @@ const cesta = {
       {
         nome: "Tomate",
         imagem: tomate,
+        link: 'https://pt.wikipedia.org/wiki/Tomate#:~:text=O%20tomate%20%C3%A9%20o%20fruto,n%C3%A1uatle%20(l%C3%ADngua%20asteca)%20tomatl.'
       },
       {
         nome: "Brócolis",
         imagem: brocolis,
+        link: 'https://pt.wikipedia.org/wiki/Br%C3%B3colis',
       },
       {
         nome: "Batata",
         imagem: batata,
+        link: 'https://pt.wikipedia.org/wiki/Batata',
       },
       {
         nome: "Pepino",
         imagem: pepino,
+        link: 'https://pt.wikipedia.org/wiki/Pepino',
       },
       {
         nome: "Abóbora",
         imagem: abobora,
+        link: 'https://pt.wikipedia.org/wiki/Ab%C3%B3bora',
       }
     ]
     }
